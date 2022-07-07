@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.newMemberFormContainer{
+  width: 50%;
+  height: 200px;
+  box-shadow: 0px 4px 10px 1px #f76c6c;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+  height: 90px;
+}
+
+.inputForm{
+  border: 1px solid #ced4da;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.msgErrorNameEmpty{
+  color: red;
+}
+
+.btnForm{
+  padding: 10px;
+  background-color: #f76c6c;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.btnForm:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #f76c6c;
+  border: 1px solid #f76c6c;
+}
+
+.listMemberContainer {
+  padding: 10px 20px 20px 20px;
+  box-shadow: 0px 0px 17px 2px #b9b8b8;
+}
+
+.member-item {
+  padding: 0.25em 0;
+  width: 32%;
+  border: 1px solid #ced4da;
+  text-align: center;
+  transform: translateX(5%);
+}
+
+.member-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
+
+.member-item:hover{
+  background-color: rgb(216, 215, 215);
+}
